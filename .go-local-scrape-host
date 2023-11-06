@@ -1,0 +1,9 @@
+#!/bin/bash
+
+function mirror {
+  wget -mnH http://localhost:8000/ 
+}
+
+function up {
+ http-server "$PWD"
+}
